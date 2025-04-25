@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class Area extends OperacionFigura {
     static Scanner entrada = new Scanner(System.in);
 
@@ -32,6 +34,6 @@ public class Area extends OperacionFigura {
                 System.out.println("Figura no válida.");
                 return 0;
         }
-    }S
+    }
 
 }
